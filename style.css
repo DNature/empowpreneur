@@ -1,6 +1,7 @@
 body {
   background: url('https://res.cloudinary.com/jasonheecs/image/upload/v1480353347/construction/bg.jpg');
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 
 main {
@@ -145,6 +146,33 @@ img {
   left: 15%;
   color: #999;
   text-transform: uppercase;
+  max-width: 300px;
+}
+
+@media screen and (max-width: 480px) {
+  .social {
+    left: 10px;
+    max-width: 200px;
+  }
+
+  .content {
+    margin-top: 3rem;
+  }
+
+  .cloud-back {
+    bottom: -70vh;
+  }
+  .cloud-front {
+    bottom: -74vh;
+  }
+
+  .footer {
+    height: 37vh;
+  }
+
+  .rocket {
+    bottom: calc(-50vh);
+  }
 }
 
 .social__link {
